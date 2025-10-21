@@ -1,0 +1,29 @@
+# Environment variables
+.env
+
+# Sensitive credentials and certificates
+firebase-service-account.json
+mysql-ca.pem
+truststore.jks
+
+# Build output
+/target/
+
+# Log files
+*.log
+*.log.*
+
+# IDE and editor specific files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# Node.js dependencies
+/node_modules/
+
+# Maven wrapper
+.mvn/
+mvnw
+mvnw.cmd
